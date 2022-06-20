@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        
+        <title>Introduce Jeon Eunsu</title>
+
+        <link rel="icon" type="image/x-icon" href="{% static 'assets/favicon.ico' %}" />
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div style="position: fixed; padding-top: 30px" class="container">
+                <a class="navbar-brand" href="#!">전은수's portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#profile">Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#love">My love</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
+            <div class="text-center my-5" id="profile">
+                <img class="img-fluid rounded-circle mb-4" style="height: 40vmin;" src="{% static 'media/나2.jpg' %}" alt="..." />
+                <h1 class="text-white fs-3 fw-bolder">Eunsu Jeon</h1>
+                <p class="text-white-50 mb-0">1999-12-04</p>
+                <p class="text-white-50 mb-0">Seoul, Korea</p>
+                <p class="text-white-50 mb-0">jysrho12@naver.com</p>
+                <p class="text-white-50 mb-0">010-6667-1253</p>
+                <a href="https://www.instagram.com/si1vers_u/" target="_blank">Instagram</a>
+            </div>
+        </header>
+
+        <section class="py-5" id="about">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2><b>기본정보</b></h2><br>
+                        <p class="mb-0">소속: 단국대학교 SW융합대학 소프트웨어학과</p>
+                        <p class="mb-0">학번: 32184024 </p>
+                        <p class="mb-0">학년/학기: 4학년 1학기</p>
+                        <p class="mb-0">교직: 
+                        <button id="show">중등학교 정교사(2급)(정보 · 컴퓨터)</button></p>
+                            <div class="background">
+                                <div class="window">
+                                    <div class="popup">
+                                        <h4><b>🎀교직이수 현황🎀</b></h4>
+                                        <hr />
+                                        <h6><b>▶교육봉사 60시간 (/60시간)</b></h6>
+                                        <h6><b>▶인적성 검사 0회 (/2회)</b></h6>
+                                        <h6><b>▶심폐소생술 1회 (/2회)</b></h6>
+                                        <h6><b>▶학교현장실습 상세정보</b></h6>
+                                        <p class="mb-0">실습학교: <a href="https://ogeum.sen.hs.kr/" target="_blank">오금고등학교</a></p>
+                                        <p class="mb-0">실습기간: 2022-05-02 ~ 2022-05-27</p>
+                                        <p class="mb-0">담당교과: 정보 과목🖥️</p>
+                                        <p class="mb-0">담당학급: 1학년 6반</p>
+                                        <p class="mb-0">실습내용: 
+                                            <li>조례 및 종례</li>
+                                            <li>부서별 업무 연수</li>
+                                            <li>수업 참관</li>
+                                            <li>수업 실연</li>
+                                            <li>학생 상담</li>
+                                            <li>교문 및 급식 지도</li>
+                                        </p>
+                                        <button id="close">x</button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        <br>
+                        <hr />
+                        <br>
+                        <h2><b>자격증</b></h2>
+                        <br>
+                        <div style="display: inline-block; width: 700px">
+                            <div style="vertical-align: top; display: inline-block">
+                                <img src="{% static 'media/한검정.jpg' %}" width="300" />
+                            </div>
+                            <div style="display: inline-block;">                        
+                                <img src="{% static 'media/컴활.jpg' %}" style="display: block" width="300" />
+                                <img src="{% static 'media/정처기.jpg' %}" style="display: block" width="300" />
+                            </div>
+                        </div>       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')"> 
+            <div style="height: 20rem"></div>
+        </div>
+        <section class="py-5" id="love">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2><b>My love</b></h2>
+                        <br>
+                        <p class="lead"><a style="color: black" href="https://drive.google.com/file/d/1TFbgo_EKoof-n_etWp3TenI9InGUMkm5/view?usp=sharing" target="_blank">🐶</a>아담 &nbsp💗성준 &nbsp🕶️패션 &nbsp📸사진  &nbsp
+                            <a style="color: black" href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16219843&qvt=0&query=Hello" target="_blank">🎧</a>음악
+                            &nbsp</p>           
+                        <br />
+                        <iframe id="adam" src="https://rr3---sn-3pm76n7z.c.drive.google.com/videoplayback?expire=1651760688&ei=8KVzYpWGFMfhrvIPw_O54AM&ip=220.117.148.216&cp=QVRKU0hfT1ZWSVhPOmtCcE5Yc1dkYURhSkoxSThIX0RzNFp4Z0NlOXZQbGZWdHI1ZS0wTlFrM08&id=c785e46ff4750991&itag=18&source=webdrive&requiressl=yes&mh=sF&mm=32&mn=sn-3pm76n7z&ms=su&mv=u&mvi=3&pl=18&ttl=transient&susc=dr&driveid=1TFbgo_EKoof-n_etWp3TenI9InGUMkm5&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=18.227&lmt=1651745680323033&mt=1651745209&subapp=DRIVE_WEB_FILE_VIEWER&txp=0011224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIgeKKDifPq0MD83uZB5JJvz9EW7SCf-0q1b4r4lSNOz38CIQDLxKfa2n6dea-loH0c9agfOB5x07vOElxuXNV44amiVw==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAJyFTOznaM5mTtzTuf4l8cwvCBsMYDtZfaECBwFfMapMAiAQg6ozFk6txptzMDoLMCkF1qKsyUaCiRKnBQrUJvEobQ==&cpn=_wqpzt2zBHihGi7m&c=WEB_EMBEDDED_PLAYER&cver=1.20220501.00.01" width="500" height="300">
+                            지원되지 않는 브라우저입니다... 귀여운 영상을 놓치셨습니다...
+                        </iframe>
+                        <p class="mb-0" style="margin-bottom: 20px;">#은수의 애완견  #우리 집 서열1위    #09년생</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; 전은수 2022</p></div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="{% static 'js/scripts.js' %}"></script>
+    </body>
+</html>
